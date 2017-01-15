@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hardware>
+    <usb enable="false" />
+    <txpower power="15" bias="5" />
+    <sleep enable="false" />
+    <usart channel="0" alternate="1" baud="115200" endpoint="api" mode="packet" flow="false" />
+    <uartboot channel="1" />
+</hardware>
